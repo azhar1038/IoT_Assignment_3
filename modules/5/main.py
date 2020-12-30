@@ -10,3 +10,8 @@ print("LCM of %d, %d = %d"%(a, b, mymath.lcm(a, b)))
 
 n = int(input("Enter a number to find square root: "))
 print("Square root of %d is %f"%(n, mymath.sqrt(n)))
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+a, b = mymath.swap(a, b)
+print("After Swapping: a =", a, "b =", b)

@@ -15,6 +15,9 @@ def lcm(a, b):
 def sqrt(n):
     return n**(1/2)
 
+def swap(a, b):
+    return (b, a)
+
 
 if __name__ == "__main__":
     print("You are trying to run a module!")
