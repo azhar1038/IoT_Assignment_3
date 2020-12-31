@@ -4,7 +4,7 @@ def is_palindrome(number):
         return True if rev == number else False
     else: return False
 
-num = input("Enter a number to check palindrome: ")
+num = input("Enter a number to check palindrome divisible by 3 and 5: ")
 if is_palindrome(number=num):
     print(num, "is a Palindrome divisible by 3 and 5")
 else:

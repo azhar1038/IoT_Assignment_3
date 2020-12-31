@@ -23,6 +23,6 @@ def factorial_do_while(num):
     print("Factorial of %d using EMULATED DO WHILE loop: %d"%(num, fact))
     
 n = int(input("Enter a number: "))
-factorial_while(n)
-factorial_for(n)
-factorial_do_while(n)
+factorial_while(num=n)
+factorial_for(num=n)
+factorial_do_while(num=n)

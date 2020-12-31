@@ -30,12 +30,12 @@ def peri_of_tri(a, b, c):
 
 l = int(input("Enter length of rectangle: "))
 b = int(input("Enter breadth of rectangle: "))
-print("Area of rectangle:", area_of_rect(l, b))
-print("Perimeter of rectangle:", peri_of_rect(l, b))
+print("Area of rectangle:", area_of_rect(length=l, breadth=b))
+print("Perimeter of rectangle:", peri_of_rect(breadth=b, length=l))
 
 s = int(input("Enter side of square: "))
-print("Area of square:", area_of_square(s))
-print("Perimeter of square:", peri_of_square(s))
+print("Area of square:", area_of_square(side=s))
+print("Perimeter of square:", peri_of_square(side=s))
 
 a = int(input("Enter first side of triangle: "))
 b = int(input("Enter second side of triangle: "))
